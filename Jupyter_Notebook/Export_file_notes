@@ -1,3 +1,6 @@
 # Export notebook without codes:
- ## First export to html then download as pdf
-1. jupyter nbconvert path/to/your/ipynb --to=html --TemplateExporter.exclude_input=True
+ ## Export to html
+  jupyter nbconvert path/to/your/ipynb --to=html --TemplateExporter.exclude_input=True
+
+ ## Export to pdf
+  jupyter nbconvert path/to/your/ipynb --to=pdf --TemplateExporter.exclude_input=True 
