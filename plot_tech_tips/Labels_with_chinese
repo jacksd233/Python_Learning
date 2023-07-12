@@ -1,0 +1,5 @@
+Python 直接绘图在label和标题处的中文会变成乱码
+加入两行代码即可：
+
+plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
+plt.rcParams['axes.unicode_minus'] = False #用来正常显示负号
